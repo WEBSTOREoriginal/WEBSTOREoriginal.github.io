@@ -1,555 +1,262 @@
 <!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <title>Web Store</title>
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  
+  <meta property="og:title" content="">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="">
+	<meta property="og:site_name" content="">
+	<meta property="og:description" content="">
 
-<html class="no-js" lang="en">
-<head>
 
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900|Montserrat:400,700' rel='stylesheet' type='text/css'>
+  
 
-   <meta charset="utf-8">
-	<title>Art</title>
-	<meta name="description" content="">  
-	<meta name="author" content="">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
 
-
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-	<!-- CSS
-    ================================================== -->
-   <link rel="stylesheet" href="css/default.css">
-	<link rel="stylesheet" href="css/layout.css">
-   <link rel="stylesheet" href="css/media-queries.css">
-   <link rel="stylesheet" href="css/animate.css">
-   <link rel="stylesheet" href="css/prettyPhoto.css">
-
-   <!-- Script
-   ================================================== -->
-	<script src="js/modernizr.js"></script>
-
-   <!-- Favicons
-	================================================== -->
-	<link rel="shortcut icon" href="favicon.png" >
-
+  <script src="js/modernizr-2.7.1.js"></script>
+  
 </head>
 
 <body>
 
-   <div id="preloader">      
-      <div id="status">
-         <img src="images/preloader.gif" height="64" width="64" alt="">
+    
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="logo" href="index.html"><img src="img/logo.svg" alt="Logo"></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#pricing" class="scroll">Цены</a></li>
+            <li><a href="#invite">Заказать</a></li>
+          </ul>
+        </div>
       </div>
-   </div>
-
-   <!-- Header
-   ================================================== -->
-   <header>
-
-      <div class="logo">
-         <a class="smoothscroll" href="#hero"><img alt="" src="images/logo.png"></a>
-      </div>
-
-      <nav id="nav-wrap">         
-         
-         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show Menu</a>
-	      <a class="mobile-btn" href="#" title="Hide navigation">Hide Menu</a>         
-
-         <ul id="nav" class="nav">
-            <li><a class="smoothscroll" href="#features">Features</a></li>
-	         <li><a class="smoothscroll" href="#pricing">Pricing</a></li>
-            <li><a class="smoothscroll" href="#screenshots">Screenshots</a></li>
-            <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li>
-            <li><a class="smoothscroll" href="#subscribe">Subscribe</a></li>
-         </ul> <!-- end #nav -->
-
-      </nav> <!-- end #nav-wrap -->
-
-      <ul class="header-social">
-         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-         <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-      </ul>
-
-   </header> <!-- Header End -->
-
-
-   <!-- Homepage Hero
-   ================================================== -->
-   <section id="hero">
-
-	   <div class="row">
-
-		   <div class="twelve columns">
-
-			   <div class="hero-text">
-				   <h1 class="responsive-headline">Портреты и арты | БЕСПЛАТНО и на заказ</h1>
-
-				   <p></p>
-			   </div>
-
-            <div class="buttons">
-               <a class="button trial" href="#">О нас</a>
-               <a class="button learn-more smoothscroll" href="#features">Заказать арт</a>
-            </div>
-
-            <div class="hero-image">
-               <img src="images/hero-image.png" alt="" />
-            </div>
-
-		   </div>
-
-	   </div>
-
-   </section> <!-- Homepage Hero end -->
-
-
-   <!-- Features Section
-   ================================================== -->
-   <section id='features'>
-
-      <div class="row feature design">
-
-         <div class="six columns right">
-            <h3>Никаких ботов!</h3>
-
-            <p>Только профессиональные художники! 
+    </div>
+        
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-6">
+            <a href="index.html"><img src="img/logo.svg" alt="Logo"></a>
+          </div>
+          <div class="col-xs-6 signin text-right navbar-nav">
+            <a href="#pricing" class="scroll">Цены</a>&nbsp; &nbsp;<a href="#invite">Заказать</a>
+          </div>
+        </div>
+        
+        <div class="row header-info">
+          <div class="col-sm-10 col-sm-offset-1 text-center">
+            <h1 class="wow fadeIn">Web Store</h1>
+            <br />
+            <p class="lead wow fadeIn" data-wow-delay="0.5s">Напишем сайт для вас.<br>
             </p>
-         </div>
-
-         <div class="six columns feature-media left">
-             <img src="images/feature-image-1.png" alt="" />
-         </div>
-
-      </div>
-
-      <div class="row feature responsive">
-
-         <div class="six columns left">
-            <h3>Бесплатно!</h3>
-
-            <p>Любой арт можно получить бесплатно!
-            </p>
-         </div>
-
-         <div class="six columns feature-media right">
-             <img src="images/feature-image-2.png" alt="" />
-         </div>
-
-      </div>
-
-      <div class="row feature cross-browser">
-
-         <div class="six columns right">
-            <h3>Мы рисуем и платные арты!</h3>
-
-            <p>ПРЕИМУЩЕСТВА ПЛАТНОГО РИСУНКА👑:
-
-               <p>👑Рисунок будет выполнен с усмотрением ваших желаний.</p>
-               <p>👑художник тратит 5-8 часов на такой заказ и рисует исключительно профессиональными материалами.</p>
-               <p>👑Такой рисунок будет нарисован в определенные сроки, например за 5-6 дней, в порядке очереди платных заказов. Строгие сроки (за один день) можно установить за доплату 100 рублей. </p>
-               <p>👑 В стоимость любого заказа включена страховка (всего 30 рублей) - благодаря чему, ваш заказ будут редактировать, в случае если вам чтото не понравится.</p>
-               <p>👑Публикация портрета в группе только на усмотрение заказчика.</p>
-            </p>
-         </div>
-
-         <div class="six columns feature-media left">
-             <img src="images/feature-image-3.png" alt="" />
-         </div>
-
-      </div>
-
-   
-
-      </div>
-
-   </section> <!-- Homepage Hero end -->
-
-
-    <!-- Pricing Section
-   ================================================== -->
-   <section id="pricing">
-
-      <div class="row section-head">
-
-         <h1>Цены</h1>
-
-         <p>
-         </p>
-
-      </div>
-
-      <div class="row">
-
-         <div class="pricing-tables bgrid-quarters s-bgrid-halves">
-
-            <div class="column">
-
-               <div class="price-block">
-
-                  <h3 class="plan-title"><i class="fa fa-cog"></i>Бесплатный арт</h3>
-                  <p class="plan-price">₽0<span>Правила</span></p>
-
-                  <ul class="features">
-                     <li>- Вы были подписаны на группу ВК</li>
-                     <li>- Фото хорошего качества (без эфектов)</li>
-                     <li>- Это фото еще ни разу не рисовалось в нашей группе</li>
-                     <li>- Вы согласны на публикацию вашего портрета в группе</li>
-                  </ul>
-
-                  <footer class="plan-sign-up">
-                     <a class="button" href="https://vk.com/narisuy_plz ">нАПИСАТЬ НАМ</a>
-                  </footer>
-
-               </div> <!-- End Price Block -->
-
-			   </div> <!-- End Column -->
-
-            <div class="column">
-
-               <div class="price-block">
-
-                  <h3 class="plan-title"><i class="fa fa-thumbs-up"></i>ЧБ</h3>
-                  <p class="plan-price">₽60<span>НЕ ПРИНИМАЮТСЯ фото, где:</span></p>
-
-                  <ul class="features">
-                     <li>Не видно лица</li>
-                     <li>На лице грим или (боже упаси) наклейки из снэпчата или фотошопа</li>
-                     <li>Лицо в тени или же наоборот слишком засвечено</li>
-                     <li>Фото с эфектами или с плохим освещением</li>
-                     <li>Во весь рост тоже не рисуем</li>
-                     <li>Фото, где больше двух человек, увы, тоже</li>
-                     <li>Фото где вы в далеке тоже удаляем из заказов</li>
-                     <li>Размытые, нечеткие фотографии </li>
-                  </ul>
-
-                  <footer class="plan-sign-up">
-                     <a class="button" href="">Sign Up</a>
-                  </footer>
-
-               </div> <!-- End Price Block -->
-
-			   </div> <!-- End Column -->
-
-           <div class="column">
-
-               <div class="price-block">
-
-                  <h3 class="plan-title"><i class="fa fa-star"></i>Цветная обводка</h3>
-                  <p class="plan-price">₽90<span>НЕ ПРИНИМАЮТСЯ фото, где:</span></p>
-
-                  <ul class="features">
-                     <li>Не видно лица</li>
-                     <li>На лице грим или (боже упаси) наклейки из снэпчата или фотошопа</li>
-                     <li>Лицо в тени или же наоборот слишком засвечено</li>
-                     <li>Фото с эфектами или с плохим освещением</li>
-                     <li>Во весь рост тоже не рисуем</li>
-                     <li>Фото, где больше двух человек, увы, тоже</li>
-                     <li>Фото где вы в далеке тоже удаляем из заказов</li>
-                     <li>Размытые, нечеткие фотографии </li>
-                  </ul>
-
-                  <footer class="plan-sign-up">
-                     <a class="button" href="">Заказать арт</a>
-                  </footer>
-
-               </div> <!-- End Price block -->
-
-			   </div> <!-- End Column -->
-
-            <div class="column">
-
-               <div class="price-block">
-
-                  <h3 class="plan-title"><i class="fa fa-trophy"></i>Цветной арт</h3>
-                  <p class="plan-price">₽140<span>НЕ ПРИНИМАЮТСЯ фото, где:</span></p>
-
-                  <ul class="features">
-                     <li>Не видно лица</li>
-                     <li>На лице грим или (боже упаси) наклейки из снэпчата или фотошопа</li>
-                     <li>Лицо в тени или же наоборот слишком засвечено</li>
-                     <li>Фото с эфектами или с плохим освещением</li>
-                     <li>Во весь рост тоже не рисуем</li>
-                     <li>Фото, где больше двух человек, увы, тоже</li>
-                     <li>Фото где вы в далеке тоже удаляем из заказов</li>
-                     <li>Размытые, нечеткие фотографии </li>
-                  </ul>
-
-                  <footer class="plan-sign-up">
-                     <a class="button" href="">Заказать арт</a>
-                  </footer>
-
-               </div> <!-- End Price Block -->
-
-			   </div> <!-- End Column -->
-
-         </div>
-
-      </div>
-
-   </section> <!-- Pricing End -->
-
-   
-
-   <!-- Screenshots
-   ================================================== -->
-   <section id="screenshots">
-
-      <div class="row section-head">
-
-         <h1>Примеры работ </h1>
-
-         <p>
-         </p>
-
-      </div>
-
-      <div class="row">
-
-         <div class="twelve columns">
-
-            <!-- screenshots-wrapper -->
-            <div id="screenshots-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
-
-          	   <div class="columns item">
-                  <div class="item-wrap">
-
-                     <a href="images/screenshots/big/b-line-icons.jpg" data-imagelightbox="a" >
-                        <img src="images/screenshots/line-icons.jpg" alt="Line Icons">
-                        <div class="overlay"></div> 
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-
-               <div class="columns item">
-                  <div class="item-wrap">
-
-                     <a href="images/screenshots/big/b-hipster.jpg" data-imagelightbox="a" >
-                        <img src="images/screenshots/hipster.jpg" alt="Hipster">
-                        <div class="overlay"></div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-
-               <div class="columns item">
-                  <div class="item-wrap">
-
-                     <a href="images/screenshots/big/b-authentic-vintage.jpg" data-imagelightbox="a" >
-                        <img src="images/screenshots/authentic-vintage.jpg" alt="Authentic Vintage">                        
-                        <div class="overlay"></div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-
-               <div class="columns item">
-                  <div class="item-wrap">
-
-                     <a href="images/screenshots/big/b-spot-uv-logo.jpg" data-imagelightbox="a" >
-                        <img src="images/screenshots/spot-uv-logo.jpg" alt="Spot UV Logo">
-                        <div class="overlay"></div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-
-               <div class="columns item">
-                  <div class="item-wrap">
-
-                     <a href="images/screenshots/big/b-tshirt-mockup.jpg" data-imagelightbox="a" >
-                     	<img src="images/screenshots/tshirt-mockup.jpg" alt="TShirt Mockup">
-                       	<div class="overlay"></div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-
-               <div class="columns item">
-                  <div class="item-wrap">
-
-                     <a href="images/screenshots/big/b-abstract-vector.jpg" data-imagelightbox="a" >
-                        <img src="images/screenshots/abstract-vector.jpg" alt="Abstract Vector">
-                        <div class="overlay"></div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-
-               <div class="columns item">
-                  <div class="item-wrap">
-
-                     <a href="images/screenshots/big/b-embossed-paper.jpg" data-imagelightbox="a" >
-                        <img src="images/screenshots/embossed-paper.jpg" alt="Embossed Paper">                        
-                        <div class="overlay"></div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-
-               <div class="columns item">
-                  <div class="item-wrap">
-
-                     <a href="images/screenshots/big/b-judah.jpg" data-imagelightbox="a" >
-                        <img src="images/screenshots/judah.jpg" alt="Judah">
-                        <div class="overlay"></div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div>  <!-- item end -->
-
-            </div> <!-- portfolio-wrapper end -->
-
-         </div> <!-- twelve columns end -->
-
-      </div>  <!-- end row -->
-
-   </section> <!-- Screenshots End -->
-
-
-   <!-- Testimonials Section
-   ================================================== -->
-   <section id="testimonials">
-
-      <div class="row content">
-
-         <span><i class="quote-left fa fa-quote-left"></i></span>
-
-         <div class="text-container">
-
-            <div class="twelve columns">
-
-               <h1>Наши работник</h1>
-
-            </div>
-
-            <div class="twelve columns flex-container">
-
-               <div class="flexslider">
-
-                  <ul class="slides">
-
-                     <li>
-                        <blockquote>
-                           <p style="color:#c4f6ff;"><font size="+3"> Настя Портретная </font>
-                           </p>
-                           <cite>Главный художник и администратор</cite>
-                        </blockquote>
-                     </li> <!-- slide ends -->
-
-                     <li>
-                        <blockquote>
-                           <p style="color:#42e3ff;"><font size="+3"> Web Store </font>
-                              <p style="color:#c4f6ff;">Хотите недорогой и красивый сайт?Тогда вам к нам! Наши программисты создадут красивый и многофункционалный сайт для вас и не за дорогую цену!</p>
-                           </p>
-                           <cite>Создатели этого сайта</cite>
-                        </blockquote>
-                     </li> <!-- slide ends -->
-
-                  </ul>
-
-               </div> <!-- div.flexslider ends -->
-
-            </div> <!-- div.flex-container ends -->
-
-         </div>  <!-- text-container ends -->
-
-         <span><i class="quote-right fa fa-quote-right"></i></span>
-
-      </div> <!-- row ends -->
-
-   </section> <!-- Testimonials Section End-->
-
-
-  
-
-
-   <!-- Footer
-   ================================================== -->
-   <footer>
-
-      <div class="row">         
-
-         <div class="six columns info">
-
-            <div class="footer-logo">
-               <a href="#">
-                  <img src="images/footer-logo.png" alt="" />
-               </a>
-            </div>
-
-            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-            Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-            nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
-            </p>
-
-         </div>
-
-         <div class="six columns right-cols">
-
+            <br />
+              
             <div class="row">
+              <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+                <div class="row">
+                  <div class="col-xs-6 text-right wow fadeInUp" data-wow-delay="1s">
+                    <a href="#be-the-first" class="btn btn-secondary btn-lg scroll">Унать больше</a> 
+                  </div>
+                  <div class="col-xs-6 text-left wow fadeInUp" data-wow-delay="1.4s">
+                    <a href="#invite" class="btn btn-primary btn-lg scroll">Заказать</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </header>
+    
+    <div class="mouse-icon hidden-xs">
+				<div class="scroll"></div>
+			</div>
+    
+    <section id="be-the-first" class="pad-xl">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-sm-offset-2 text-center margin-30 wow fadeIn" data-wow-delay="0.6s">
+            <h2>Почему мы</h2>
+            <p class="lead"></p>
+          </div>
+        </div>
+        
+        <div class="iphone wow fadeInUp" data-wow-delay="1s">
+	        <img src="img/iphone.png">
+        </div>
+      </div>
+    </section>
+    
+    <section id="main-info" class="pad-xl">
+	    <div class="container">
+		    <div class="row">
+			    <div class="col-sm-4 wow fadeIn" data-wow-delay="0.4s">
+				    <hr class="line purple">
+				    <h3>Быстро</h3>
+				    <p>Наши программисты напишут сайт для вас быстро, т.к. мы ценим ваше время</p>
+			    </div>
+			    <div class="col-sm-4 wow fadeIn" data-wow-delay="0.8s">
+				    <hr  class="line blue">
+				    <h3>Качественно</h3>
+				    <p>Наши программисты напишут вам сайт качественно, т.к. мы ценим наших покупателей</p>
+			    </div>
+			    <div class="col-sm-4 wow fadeIn" data-wow-delay="1.2s">
+				    <hr  class="line yellow">
+				    <h3>Не большие цены</h3>
+				    <p>Наши программисты напишут вам сайт не дорого, т.к. мы понимаем наших покупателей</p>
+			    </div>
+		    </div>
+	    </div>
+    </section>
+        
+        
 
-               <div class="columns">
-                  <h3 class="address">Come Visit</h3>
-                  <p>
-                  1600 Amphitheatre Parkway<br>
-                  Mountain View, CA<br>
-                  94043 US
-                  </p>
-               </div>
+    <section id="pricing" class="pad-lg">
+      <div class="container">
+        <div class="row margin-40">
+          <div class="col-sm-8 col-sm-offset-2 text-center">
+            <h2 class="white">Цены</h2>
+            <p class="white">Здесь вы найдете цены на сайты</p>
+          </div>
+        </div>
+        
+        <div class="row margin-50">
+          
+          <div class="col-sm-4 pricing-container wow fadeInUp" data-wow-delay="1s">
+            <br />
+            <ul class="list-unstyled pricing-table text-center">
+    					<li class="headline"><h5 class="white">Landing page</h5></li>
+    					<li class="price"><div class="amount">₽4000/$57<small></small></div></li>
+    					<li class="info">Landing page дословно переводится с английского: «целевая» или «посадочная страница».</li>
+    					<li class="features last btn btn-secondary btn-wide"><a href="#">Заказать</a></li>
+    				</ul>
+          </div>
+          
+          <div class="col-sm-4 pricing-container wow fadeInUp" data-wow-delay="0.4s">
+            <ul class="list-unstyled pricing-table active text-center">
+    					<li class="headline"><h5 class="white">Интернет магазин</h5></li>
+    					<li class="price"><div class="amount">₽8000/$114<small></small></div></li>
+    					<li class="info">Красивый интернет магазин для вас(Цена может варьироваться от колличества страниц на сайте)</li>  
 
-               <div class="columns">
-                  <h3 class="social">socialize</h3>
-                  <ul>
-                     <li><a href="#">Facebook</a></li>
-                     <li><a href="#">Twitter</a></li>
-                     <li><a href="#">GooglePlus</a></li>
-                  </ul>
-               </div>
+    					<li class="features last btn btn-secondary btn-wide"><a href="#">Заказать</a></li>
+    				</ul>
+          </div>
+          
+          <div class="col-sm-4 pricing-container wow fadeInUp" data-wow-delay="1.3s">
+            <br />
+            <ul class="list-unstyled pricing-table text-center">
+    					<li class="headline"><h5 class="white">вТут что то надо придумать</h5></li>
+    					<li class="price"><div class="amount">$24<small></small></div></li>
+    					<li class="info">ацфцфцфцфц
+                <p>dsa</p></li>
 
-               <div class="columns last">
-                  <h3 class="contact">Contact Us</h3>
-                  <ul>
-                    <li><a href="tel:6473438234">647.343.8234</a></li>
-                    <li><a href="tel:1234567890">123.456.7890</a></li>
-                    <li><a href="mailto:someone@woo.com">someone@woosite.com</a></li>
-                  </ul>
-               </div>
+    					<li class="features last btn btn-secondary btn-wide"><a href="#">Заказать
+    				</ul>
+          </div>
+          
+        </div>
+        
+      </div>
+    </section>
+    
+    
+    <section id="invite" class="pad-lg light-gray-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-sm-offset-2 text-center">
+            <i class="fa fa-envelope-o margin-40"></i>
+            <h2 class="black">Заказать сайт</h2>
+            <br />
+            <p class="black">Для этого надо просто написать нам в вк и наш менеджер напишет вам</p>
+            <br />
+            
+            <div class="row">
+              <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+                <form role="form"
+                  <button type="submit" class="btn btn-primary btn-lg">VK</button>
+                </form>
+              </div>
+            </div>
 
-            </div> <!-- Nested Row End -->
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    <section id="press" class="pad-sm">
+      <div class="container">
+        
+        <div class="row margin-30 news-container">
+          <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 wow fadeInLeft" data-wow-delay="0.8s">
+            <a href="#" target="_blank">
+            <img class="news-img pull-left" src="img/press-01.jpg" alt="Tech Crunch">
+            <p class="black">Наш заказчик<br /> 
+            <small><em>НАШ ЗАКАЗЧИК</em></small></p>
+            </a>
+          </div>
+        </div>
+        
+        <div class="row margin-30 news-container">
+          <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 wow fadeInLeft" data-wow-delay="1.2s">
+            <a href="#" target="_blank">
+            <img class="news-img pull-left" src="img/press-02.jpg" alt="Forbes">
+            <p class="black">НАШ ЗАКАЗЧИК <br /> 
+            <small><em>НАШ ЗАКАЗЧИК</em></small></p>
+            </a>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    
+    
+    <footer>
+      <div class="container">
+        
+        <div class="row">
+          <div class="col-sm-8 margin-20">
+            <ul class="list-inline social">
+              <li>Мы в соцсетях</li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+          </div>
+          
+          <div class="col-sm-4 text-right">
+            <p><small>Copyright &copy; 2019. All rights reserved. <br>
+	            Created by <a href="http://visualsoldiers.com">Visual Soldiers</a></small></p>
+          </div>
+        </div>
+        
+      </div>
+    </footer>
+    
+    
 
-         </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"><\/script>')</script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
 
-         <p class="copyright">&copy; 2014 Woo | Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></p>
-
-         <div id="go-top">
-            <a class="smoothscroll" title="Back to Top" href="#hero"><i class="icon-up-open"></i></a>
-         </div>
-
-      </div> <!-- Row End -->
-
-   </footer> <!-- Footer End-->
-
-
-   <!-- Java Script
-   ================================================== -->
-   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
-   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
-
-   <script src="js/jquery.flexslider.js"></script>
-   <script src="js/waypoints.js"></script>
-   <script src="js/jquery.fittext.js"></script>
-   <script src="js/jquery.fitvids.js"></script>
-   <script src="js/imagelightbox.js"></script>
-   <script src="js/jquery.prettyPhoto.js"></script>   
-   <script src="js/main.js"></script>
-
-</body>
-
+   
+    </body>
 </html>
