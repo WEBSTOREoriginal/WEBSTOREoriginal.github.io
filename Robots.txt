@@ -1,0 +1,16 @@
+Host: https://webstoreoriginal.github.io
+
+User-agent: Yandex
+Sitemap: https://webstoreoriginal.github.io/cwf_text.xml
+
+
+User-agent: YandexDirect
+Sitemap: https://webstoreoriginal.github.io/cwf_text.xml
+
+
+User-agent: Googlebot
+Sitemap: https://webstoreoriginal.github.io/cwf_text.xml
+
+
+User-agent: *
+Sitemap: https://webstoreoriginal.github.io/cwf_text.xml
