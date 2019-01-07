@@ -83,90 +83,77 @@ a:hover, a:focus {
 
 /*------------------Buttons---------------------*/
 .button{text-decoration:none; text-align:center; 
-padding:21px 42px; 
+padding:6% 10%; 
 border:none; 
 
-font:20px Arial, Helvetica, sans-serif; 
+font:90% Arial, Helvetica, sans-serif; 
 font-weight:bold; 
 color:#000000; 
 background:#ffffff; 
--webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
--moz-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+
 
 -webkit-transition: all 0.26s linear; 
 -moz-transition: all 0.26s linear; 
 -o-transition: all 0.26s linear; 
 transition: all 0.26s linear;}
 .button:hover{ 
-padding:21px 42px; 
+padding:6% 10%; 
 border:none; 
 -webkit-border-radius:20px; 
 -moz-border-radius:20px; 
 border-radius: 20px; 
-font:20px Arial, Helvetica, sans-serif; 
+font:90% Arial, Helvetica, sans-serif; 
 font-weight:bold; 
 color:#ffffff; 
 background:#949494; 
--webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
--moz-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+
 
 }.button:active{ 
-padding:21px 43px; 
+padding:6% 10%; 
 border:none; 
 
-font:20px Arial, Helvetica, sans-serif; 
+font:90% Arial, Helvetica, sans-serif; 
 font-weight:bold; 
 color:#e5ffff; 
 background:#000000; 
--webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
--moz-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+
 
 }
 
  .button2{text-decoration:none; text-align:center; 
-padding:21px 42px; 
+padding:6% 10%; 
 border:none; 
-
-font:20px Arial, Helvetica, sans-serif; 
+font:90% Arial, Helvetica, sans-serif; 
 font-weight:bold; 
-color:#000000; 
-background:#ffffff; 
--webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
--moz-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+color:#ffffff; 
+background:#949494; 
+
 
 -webkit-transition: all 0.26s linear; 
 -moz-transition: all 0.26s linear; 
 -o-transition: all 0.26s linear; 
 transition: all 0.26s linear;}
 .button2:hover{ 
-padding:21px 42px; 
+padding:6% 10%; 
 border:none; 
 -webkit-border-radius:20px; 
 -moz-border-radius:20px; 
 border-radius: 20px; 
-font:20px Arial, Helvetica, sans-serif; 
+font:90% Arial, Helvetica, sans-serif; 
 font-weight:bold; 
-color:#ffffff; 
-background:#949494; 
--webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
--moz-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+color:#000000; 
+background:#ffffff; 
+
 
 }.button2:active{ 
-padding:21px 43px; 
+padding:6% 10%; 
 border:none; 
 
-font:20px Arial, Helvetica, sans-serif; 
+font:90% Arial, Helvetica, sans-serif; 
 font-weight:bold; 
 color:#e5ffff; 
 background:#000000; 
--webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
--moz-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+
 
 }
 
@@ -178,9 +165,7 @@ font:20px Arial, Helvetica, sans-serif;
 font-weight:bold; 
 color:#000000; 
 background:#ffffff; 
--webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
--moz-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+
 
 -webkit-transition: all 0.26s linear; 
 -moz-transition: all 0.26s linear; 
@@ -194,9 +179,7 @@ font:20px Arial, Helvetica, sans-serif;
 font-weight:bold; 
 color:#ffffff; 
 background:#949494; 
--webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
--moz-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+
 
 }.button3:active{ 
 padding:21px 139.5px; 
@@ -206,9 +189,7 @@ font:20px Arial, Helvetica, sans-serif;
 font-weight:bold; 
 color:#e5ffff; 
 background:#000000; 
--webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
--moz-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+
 
 }
 
@@ -221,9 +202,6 @@ font:20px Arial, Helvetica, sans-serif;
 font-weight:bold; 
 color:#000000; 
 background:#ffffff; 
--webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
--moz-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
 
 -webkit-transition: all 0.26s linear; 
 -moz-transition: all 0.26s linear; 
@@ -237,9 +215,7 @@ font:20px Arial, Helvetica, sans-serif;
 font-weight:bold; 
 color:#ffffff; 
 background:#949494; 
--webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
--moz-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+
 
 }.button4:active{ 
 padding:21px 40px; 
@@ -249,9 +225,7 @@ font:20px Arial, Helvetica, sans-serif;
 font-weight:bold; 
 color:#e5ffff; 
 background:#000000; 
--webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
--moz-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+
 
 }
 
@@ -868,7 +842,38 @@ footer {
 }
 
 
-/* Portrait tablet to landscape and desktop */
+/* Portrait tablet to landscape and desktop 
+XGA — 1024×768 (4:3) — 786,432 кпикс, 
+XGA+ — 1152×864 (4:3) — 995,3 кпикс, 
+WXVGA — 1200×600 (2:1) — 720 кпикс, 
+HD 720p — 1280×720 (16:9) — 921,6 кпикс, 
+WXGA — 1280×768 (5:3) — 983,04 кпикс, 
+SXGA — 1280×1024 (5:4) — 1,31 Мпикс, 
+WXGA+ — 1440×900 (8:5) — 1,296 Мпикс, 
+SXGA+ — 1400×1050 (4:3) — 1,47 Мпикс, 
+XJXGA — 1536×960 (8:5) — 1,475 Мпикс, 
+WSXGA (?) — 1536×1024 (3:2) — 1,57 Мпикс, 
+WXGA++ — 1600×900 (16:9) — 1,44 Мпикс, 
+WSXGA — 1600×1024 (25:16) — 1,64 Мпикс, 
+UXGA — 1600×1200 (4:3) — 1,92 Мпикс, 
+WSXGA+ — 1680×1050 (8:5) — 1,76 Мпикс, 
+Full HD 1080p — 1920×1080 (16:9) — 2,07 Мпикс, 
+WUXGA — 1920×1200 (16:10) — 2,3 Мпикс, 
+2K — 2048x1080 (256:135) — 2,2 Мпикс, 
+QWXGA — 2048×1152 (16:9) — 2,36 Мпикс, 
+QXGA — 2048×1536 (4:3) — 3,15 Мпикс, 
+WQXGA — 2560×1440 (16:9) — 3,68 Мпикс, 
+WQXGA — 2560×1600 (8:5) — 4,09 Мпикс, 
+QSXGA — 2560×2048 (5:4) — 5,24 Мпикс, 
+WQSXGA — 3200×2048 (25:16) — 6,55 Мпикс, 
+QUXGA — 3200×2400 (4:3) — 7,68 Мпикс, 
+WQUXGA — 3840×2400 (8:5) — 9,2 Мпикс, 
+Ultra-HD — 4096×2160 (256:135)[1] — 8,8 Мпикс, 
+HSXGA — 5120×4096 (5:4) — 20,97 Мпикс, 
+WHSXGA — 6400×4096 (25:16) — 26,2 Мпикс, 
+HUXGA — 6400×4800 (4:3) — 30,72 Мпикс, 
+Super Hi-Vision — 7680×4320 (16:9) — 33,17 Мпикс, 
+WHUXGA — 7680×4800 (8:5) — 36,86 Мпикс.*/
 @media (min-width: 768px) and (max-width: 991px) {
 
 #be-the-first { 
@@ -876,6 +881,140 @@ footer {
   }
   
 }
+@media (min-width: 320px) and (max-width: 240px) {
+
+#be-the-first { 
+      background-attachment: scroll;
+  }
+  
+}
+@media (min-width: 352px) and (max-width: 240px) {
+
+#be-the-first { 
+      background-attachment: scroll;
+  }
+  
+}
+@media (min-width: 352px) and (max-width: 288px) {
+
+#be-the-first { 
+      background-attachment: scroll;
+  }
+  
+}
+@media (min-width: 400px) and (max-width: 240px) {
+
+#be-the-first { 
+      background-attachment: scroll;
+  }
+  
+}
+@media (min-width: 480px) and (max-width: 576px) {
+
+#be-the-first { 
+      background-attachment: scroll;
+  }
+  
+}
+@media (min-width: 640px) and (max-width: 240px) {
+
+#be-the-first { 
+      background-attachment: scroll;
+  }
+  
+}
+@media (min-width: 640px) and (max-width: 360px) {
+
+#be-the-first { 
+      background-attachment: scroll;
+  }
+  
+}
+@media (min-width: 640px) and (max-width: 480px) {
+
+#be-the-first { 
+      background-attachment: scroll;
+  }
+  
+}
+@media (min-width: 800px) and (max-width: 480px) {
+
+#be-the-first { 
+      background-attachment: scroll;
+  }
+  
+}
+@media (min-width: 800px) and (max-width: 600px) {
+
+#be-the-first { 
+      background-attachment: scroll;
+  }
+  
+}
+@media (min-width: 854px) and (max-width: 480px) {
+
+#be-the-first { 
+      background-attachment: scroll;
+  }
+  
+}
+@media (min-width: 960px) and (max-width: 540px) {
+
+#be-the-first { 
+      background-attachment: scroll;
+  }
+  
+}
+@media (min-width: 1024px) and (max-width: 600px) {
+
+#be-the-first { 
+      background-attachment: scroll;
+  }
+  
+}
+@media (min-width: 768px) and (max-width: 991px) {
+
+#be-the-first { 
+      background-attachment: scroll;
+  }
+  
+}
+@media (min-width: 768px) and (max-width: 991px) {
+
+#be-the-first { 
+      background-attachment: scroll;
+  }
+  
+}
+@media (min-width: 768px) and (max-width: 991px) {
+
+#be-the-first { 
+      background-attachment: scroll;
+  }
+  
+}
+@media (min-width: 768px) and (max-width: 991px) {
+
+#be-the-first { 
+      background-attachment: scroll;
+  }
+  
+}
+@media (min-width: 768px) and (max-width: 991px) {
+
+#be-the-first { 
+      background-attachment: scroll;
+  }
+  
+}
+@media (min-width: 768px) and (max-width: 991px) {
+
+#be-the-first { 
+      background-attachment: scroll;
+  }
+  
+}
+
 
 
 
