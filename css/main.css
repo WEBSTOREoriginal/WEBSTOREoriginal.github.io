@@ -82,72 +82,303 @@ a:hover, a:focus {
 
 
 /*------------------Buttons---------------------*/
-.btn:focus {
-  outline: 0px auto -webkit-focus-ring-color;
-  outline: none;
+.button{text-decoration:none; text-align:center; 
+padding:21px 42px; 
+border:none; 
+
+font:20px Arial, Helvetica, sans-serif; 
+font-weight:bold; 
+color:#000000; 
+background:#ffffff; 
+-webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+-moz-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+
+-webkit-transition: all 0.26s linear; 
+-moz-transition: all 0.26s linear; 
+-o-transition: all 0.26s linear; 
+transition: all 0.26s linear;}
+.button:hover{ 
+padding:21px 42px; 
+border:none; 
+-webkit-border-radius:20px; 
+-moz-border-radius:20px; 
+border-radius: 20px; 
+font:20px Arial, Helvetica, sans-serif; 
+font-weight:bold; 
+color:#ffffff; 
+background:#949494; 
+-webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+-moz-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+
+}.button:active{ 
+padding:21px 43px; 
+border:none; 
+
+font:20px Arial, Helvetica, sans-serif; 
+font-weight:bold; 
+color:#e5ffff; 
+background:#000000; 
+-webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+-moz-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+
 }
 
-.btn {
-  text-transform: uppercase;
-  border-radius: 4px;
-  border: none;
+ .button2{text-decoration:none; text-align:center; 
+padding:21px 42px; 
+border:none; 
+
+font:20px Arial, Helvetica, sans-serif; 
+font-weight:bold; 
+color:#000000; 
+background:#ffffff; 
+-webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+-moz-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+
+-webkit-transition: all 0.26s linear; 
+-moz-transition: all 0.26s linear; 
+-o-transition: all 0.26s linear; 
+transition: all 0.26s linear;}
+.button2:hover{ 
+padding:21px 42px; 
+border:none; 
+-webkit-border-radius:20px; 
+-moz-border-radius:20px; 
+border-radius: 20px; 
+font:20px Arial, Helvetica, sans-serif; 
+font-weight:bold; 
+color:#ffffff; 
+background:#949494; 
+-webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+-moz-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+
+}.button2:active{ 
+padding:21px 43px; 
+border:none; 
+
+font:20px Arial, Helvetica, sans-serif; 
+font-weight:bold; 
+color:#e5ffff; 
+background:#000000; 
+-webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+-moz-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+
 }
 
-.btn-lg {
-  font-size: 13px;
-  line-height: 1.33;
-  padding: 22px 30px;
-  font-weight: 400;
-  letter-spacing: 1px;
-}
+.button3{text-decoration:none; text-align:center; 
+padding:21px 139.5px; 
+border:none; 
 
-.btn-sm {
-  font-size: 11px;
-  line-height: 1.33;
-  padding: 10px 18px;
-  font-weight: 400;
-}
+font:20px Arial, Helvetica, sans-serif; 
+font-weight:bold; 
+color:#000000; 
+background:#ffffff; 
+-webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+-moz-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
 
-.btn-wide {
-  width: 100%;
-  font-size: 13px;
-  line-height: 1.33;
-  padding: 18px 28px;
-  font-weight: 400;
-  letter-spacing: 1px;
-}
+-webkit-transition: all 0.26s linear; 
+-moz-transition: all 0.26s linear; 
+-o-transition: all 0.26s linear; 
+transition: all 0.26s linear;}
+.button3:hover{ 
+padding:21px 139.5px; 
+border:none; 
 
-.btn-primary {
-  background-color:#3d3d3d;
-  color: #ffffff;
-}
+font:20px Arial, Helvetica, sans-serif; 
+font-weight:bold; 
+color:#ffffff; 
+background:#949494; 
+-webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+-moz-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
-  background-color: #c7c7c7;
-  color: #ffffff;
-  -webkit-transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  -o-transition: all 0.35s ease-in-out;
-  transition: all 0.35s ease-in-out;
-}
+}.button3:active{ 
+padding:21px 139.5px; 
+border:none; 
 
-.btn-secondary {
-  background-color: #ffffff;
-  color: #231f20;
-}
+font:20px Arial, Helvetica, sans-serif; 
+font-weight:bold; 
+color:#e5ffff; 
+background:#000000; 
+-webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+-moz-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
 
-.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary.active {
-  background-color: #ededed;
-  color: #231f20;
-  -webkit-transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  -o-transition: all 0.35s ease-in-out;
-  transition: all 0.35s ease-in-out;
 }
 
 
+.button4{text-decoration:none; text-align:center; 
+padding:21px 40px; 
+border:none; 
+
+font:20px Arial, Helvetica, sans-serif; 
+font-weight:bold; 
+color:#000000; 
+background:#ffffff; 
+-webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+-moz-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+
+-webkit-transition: all 0.26s linear; 
+-moz-transition: all 0.26s linear; 
+-o-transition: all 0.26s linear; 
+transition: all 0.26s linear;}
+.button4:hover{ 
+padding:21px 40px; 
+border:none; 
+
+font:20px Arial, Helvetica, sans-serif; 
+font-weight:bold; 
+color:#ffffff; 
+background:#949494; 
+-webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+-moz-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+
+}.button4:active{ 
+padding:21px 40px; 
+border:none; 
+
+font:20px Arial, Helvetica, sans-serif; 
+font-weight:bold; 
+color:#e5ffff; 
+background:#000000; 
+-webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+-moz-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+
+}
 
 
+/* стилизация содержимого страницы */
+body {
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #292b2c;
+    background-color: #fff;
+} 
+  
+/* свойства модального окна по умолчанию */
+.modal {
+    position: fixed; /* фиксированное положение */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5); /* цвет фона */
+    z-index: 1050;
+    opacity: 0; /* по умолчанию модальное окно прозрачно */
+    -webkit-transition: opacity 200ms ease-in; 
+    -moz-transition: opacity 200ms ease-in;
+    transition: opacity 200ms ease-in; /* анимация перехода */
+    pointer-events: none; /* элемент невидим для событий мыши */
+    margin: 0;
+    padding: 0;
+}
+/* при отображении модального окно */
+.modal:target {
+    opacity: 1; /* делаем окно видимым */
+    pointer-events: auto; /* элемент видим для событий мыши */
+    overflow-y: auto; /* добавляем прокрутку по y, когда элемент не помещается на страницу */
+}
+/* ширина модального окна и его отступы от экрана */
+.modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 10px;
+}
+@media (min-width: 576px) {
+  .modal-dialog {
+      max-width: 500px;
+      margin: 30px auto; /* для отображения модального окна по центру */
+  }
+}
+/* свойства для блока, содержащего контент модального окна */ 
+.modal-content {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: .3rem;
+    outline: 0;
+}
+@media (min-width: 768px) {
+  .modal-content {
+      -webkit-box-shadow: 0 5px 15px rgba(0,0,0,.5);
+      box-shadow: 0 5px 15px rgba(0,0,0,.5);
+  }
+}
+/* свойства для заголовка модального окна */
+.modal-header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #eceeef;
+}
+.modal-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+/* свойства для кнопки "Закрыть" */
+.close {
+    float: right;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    text-decoration: none;
+}
+/* свойства для кнопки "Закрыть" при нахождении её в фокусе или наведении */
+.close:focus, .close:hover {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: .75;
+}
+/* свойства для блока, содержащего основное содержимое окна */
+.modal-body {
+  position: relative;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 15px;
+    overflow: auto;
+}
 /*-----------------Margins------------------*/
 .margin-0 {
     margin-bottom: 0 !important;

@@ -35,75 +35,62 @@ gtag('config', 'UA-131754977-1');
   <link rel="stylesheet" href="css/main.css">
 
   <script src="js/modernizr-2.7.1.js"></script>
-  
   <style>
-.button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 16px 32px;
+  .modalDialog {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    display: none;
+    pointer-events: none;
+  }
+
+  .modalDialog:target {
+    display: block;
+    pointer-events: auto;
+  }
+
+  .modalDialog > div {
+    width: 400px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #fff;
+    background: -moz-linear-gradient(#fff, #999);
+    background: -webkit-linear-gradient(#fff, #999);
+    background: -o-linear-gradient(#fff, #999);
+  }
+
+  .close {
+    background: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
     text-align: center;
+    top: -10px;
+    width: 24px;
     text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
-}
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+  }
 
-.button1 {
-    background-color: white; 
-    color: black; 
-    border: 2px solid #4CAF50;
-}
-
-.button1:hover {
-    background-color: #4CAF50;
-    color: white;
-}
-
-.button2 {
-    background-color: white; 
-    color: black; 
-    border: 2px solid #008CBA;
-}
-
-.button2:hover {
-    background-color: #008CBA;
-    color: white;
-}
-
-.button3 {
-    background-color: white; 
-    color: black; 
-    border: 2px solid #f44336;
-}
-
-.button3:hover {
-    background-color: #f44336;
-    color: white;
-}
-
-.button4 {
-    background-color: white;
-    color: black;
-    border: 2px solid #e7e7e7;
-}
-
-.button4:hover {background-color: #e7e7e7;}
-
-.button5 {
-    background-color: white;
-    color: black;
-    border: 2px solid #555555;
-}
-
-.button5:hover {
-    background-color: #555555;
-    color: white;
-}
-</style>
+  .close:hover { background: #00d9ff; }
+  </style>
+  
 
 </head>
 
@@ -152,10 +139,10 @@ gtag('config', 'UA-131754977-1');
               <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
                 <div class="row">
                   <div class="col-xs-6 text-right wow fadeInUp" data-wow-delay="1s">
-                    <a href="#be-the-first" class="btn btn-secondary btn-lg scroll">Узнать больше</a> 
+                    <a style="margin-left: 240px;" href="#be-the-first" class="button">Узнать больше</a>
                   </div>
                   <div class="col-xs-6 text-left wow fadeInUp" data-wow-delay="1.4s">
-                    <a href="#be-the-first" class="btn btn-primary btn-lg scroll">Заказать</a>
+                    <a style="width: 200px;" href="#pricing" class="button2">Заказать</a>
                   </div>
                 </div>
               </div>
@@ -226,7 +213,7 @@ gtag('config', 'UA-131754977-1');
     					<li class="headline"><h5 class="white">Landing page</h5></li>
     					<li class="price"><div class="amount">₽4000/$57<small></small></div></li>
     					<li class="info">Landing page дословно переводится с английского: «целевая» или «посадочная страница».</li>
-    					<li class="features last btn btn-secondary btn-wide"><a href="https://vk.com/web_store_rus">Заказать</a></li>
+    					<li class="features last btn btn-secondary btn-wide"><a style="width: 20px;" href="https://vk.com/web_store_rus" class="button3">Заказать</a></li>
     				</ul>
           </div>
           
@@ -236,7 +223,7 @@ gtag('config', 'UA-131754977-1');
     					<li class="price"><div class="amount">₽8000/$114<small></small></div></li>
     					<li class="info">Красивый  интернет - магазин для вас (Цена может варьироваться от количества страниц на сайте)</li>  
 
-    					<li class="features last btn btn-secondary btn-wide"><a href="https://vk.com/web_store_rus">Заказать</a></li>
+    					<li class="features last btn btn-secondary btn-wide"><a style="width: 20px;" href="https://vk.com/web_store_rus" class="button3">Заказать</a></li>
     				</ul>
           </div>
           
@@ -244,11 +231,11 @@ gtag('config', 'UA-131754977-1');
             <br />
             <ul class="list-unstyled pricing-table text-center">
     					<li class="headline"><h5 class="white">Многостраничный сайт </h5></li>
-    					<li class="price"><div class="amount">500₽/стр | 7.5$/стр <small></small></div></li>
+    					<li class="price"><div class="amount">500₽/стр | 7.5$/стр <small><font size="-1"> Начальная цена без страниц:4000 рублей </font></small></div></li>
     					<li class="info">Любой сайт
                 <p> </p></li>
 
-    					<li class="features last btn btn-secondary btn-wide"><a href="https://vk.com/web_store_rus">Заказать
+    					<li class="features last btn btn-secondary btn-wide"><a style="width: 20px;" href="https://vk.com/web_store_rus" class="button3">Заказать</a>  
     				</ul>
           </div>
           
@@ -272,12 +259,10 @@ gtag('config', 'UA-131754977-1');
               <div  class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
                 <form  role="form">
                  
-                  <button type="submit"  class="btn btn-primary btn-lg">
-                  <a href="https://vk.com/web_store_rus">
-                  VK    
-                  </a>
                   
-                  </button>
+                  <a style="width: 20px;" href="https://vk.com/web_store_rus" class="button4">VK</a>
+                  
+                  
                 </form>
               </div>
             </div>
@@ -294,9 +279,9 @@ gtag('config', 'UA-131754977-1');
         <div class="row margin-30 news-container">
           <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 wow fadeInLeft" data-wow-delay="0.8s">
             <a href="#" target="_blank">
-            <img class="news-img pull-left" src="img/press-01.jpg" alt="Tech Crunch">
-            <p class="black">Наш заказчик<br /> 
-            <small><em>НАШ ЗАКАЗЧИК</em></small></p>
+            <img class="news-img pull-left" src="img/press-01.png" alt="Tech Crunch">
+            <p class="black">Портреты и арты<br /> 
+            <small><em>https://vk.com/narisuy_plz</em></small></p>
             </a>
           </div>
         </div>
@@ -304,9 +289,9 @@ gtag('config', 'UA-131754977-1');
         <div class="row margin-30 news-container">
           <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 wow fadeInLeft" data-wow-delay="1.2s">
             <a href="#" target="_blank">
-            <img class="news-img pull-left" src="img/press-02.jpg" alt="Forbes">
-            <p class="black">НАШ ЗАКАЗЧИК <br /> 
-            <small><em>НАШ ЗАКАЗЧИК</em></small></p>
+            
+            <p class="black">Здесь могли быть вы <br /> 
+            <small><em>Мы оставили место и для вас</em></small></p>
             </a>
           </div>
         </div>
@@ -318,15 +303,7 @@ gtag('config', 'UA-131754977-1');
     <footer>
       <div class="container">
         
-        <div class="row">
-          <div class="col-sm-8 margin-20">
-            <ul class="list-inline social">
-              <li>Мы в соцсетях</li>
-              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-            </ul>
-          </div>
+
           
           <div class="col-sm-4 text-right">
             <p><small>Copyright &copy; 2019.<br>
